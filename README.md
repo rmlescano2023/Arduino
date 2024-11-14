@@ -59,3 +59,19 @@ Write a program that will turn on the LED if the voltage in the potentiometer is
 The program should always output these values to the Serial Monitor:
 1. Voltage in potentiometer in Volts
 2. Interval of LED blinking in seconds
+
+<br>
+
+## LAB 5
+
+Install the Arduino Software from this link: https://www.arduino.cc/
+
+Familiarize and learn coding from this link: https://www.arduino.cc/en/Guide
+
+In this laboratory exercise, you are going to make codes for an 8-bit binary counter. Wire-up your Arduino as seen in the figure below. Use the convention of binary 1 equivalent to an “on” state of the LED, binary 0 to “off” state of the LED. As you can see also in the diagram below, you will be using pins 5-12 of your Arduino Uno board. The most significant bit (MSB) is pin 12 and the least significant bit (LSB) is pin 5. The behavior of the circuit based on the push button is summarized below.
+
+**Push Button Event | Current State of Circuit | Circuit Response**
+* 5-sec press | off | Start counting at 0 up to max value in a default 1-sec interval between counts. It will reset to 0 automatically when it reaches the maximum value and start counting again.
+* 5-sec press | on | Turn off the circuit
+* 1 push | on | Reset the counter to 0 and start counting again.
+* 1 push | off | Flash all LED at once for 2 seconds and do nothing after that
