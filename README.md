@@ -26,3 +26,16 @@ We are going to make use of this definition of prime numbers, “A Prime Number 
 
 ## LAB 3
 
+No laboratory exercise for LAB 3.
+
+<br>
+
+## LAB 4
+
+Install the Arduino Software from this link: https://www.arduino.cc/
+
+Familiarize and learn coding from this link: https://www.arduino.cc/en/Guide
+
+Write a program and wire the Arduino to ask an input from a push button. When the button is pressed, the LED should turn on. The next press of the button will turn off the LED. The LED will continue to alternately turn on and off for every press of the button. Search on how to debounce the circuit using the hardware. Implement also debouncing of the pushbutton using the software.
+
+Another feature of your Arduino circuit is to detect long press of the pushbutton. If the user presses the pushbutton for more than 5 seconds, the LED will blink automatically. The interval of on and off states of the LED will be 1 second.
