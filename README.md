@@ -48,15 +48,15 @@ Install the Arduino Software from this link: https://www.arduino.cc/
 
 Familiarize and learn coding from this link: https://www.arduino.cc/en/Guide
 
-Write a program that will turn on the LED if the voltage in the potentiometer is 2 volts. The LED will blink in proportion to the voltage readings in the potentiometer. The frequency of the LED blinking is linearly dependent to the potentiometer voltage and can be seen below:
+Write a program that will turn on the LED if the voltage in the potentiometer is 2 volts. The LED will blink in proportion to the voltage readings in the potentiometer. The frequency of the LED blinking is linearly dependent to the potentiometer voltage and can be seen below: <br>
 +-----------------------------------+-----------------------------------+ <br>
-|   Potentiometer Voltage (Volts)   |        Interval in seconds        |
-+-----------------------------------+-----------------------------------+
-|                2                  |                  4                |
-|                3                  |                  3                |
-|                4                  |                  2                |
-|                5                  |                  1                |
-+-----------------------------------+-----------------------------------+
+|   Potentiometer Voltage (Volts)   |        Interval in seconds        | <br>
++-----------------------------------+-----------------------------------+ <br>
+|                2                  |                  4                | <br>
+|                3                  |                  3                | <br>
+|                4                  |                  2                | <br>
+|                5                  |                  1                | <br>
++-----------------------------------+-----------------------------------+ <br>
 
 The program should always output these values to the Serial Monitor:
 1. Voltage in potentiometer in Volts
