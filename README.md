@@ -50,7 +50,7 @@ Familiarize and learn coding from this link: https://www.arduino.cc/en/Guide
 
 Write a program that will turn on the LED if the voltage in the potentiometer is 2 volts. The LED will blink in proportion to the voltage readings in the potentiometer. The frequency of the LED blinking is linearly dependent to the potentiometer voltage and can be seen below: <br>
 
-Potentiometer Voltage (Volts), Interval in seconds
+**Potentiometer Voltage (Volts), Interval in seconds**
 * 2, 4
 * 3, 3
 * 4, 2
